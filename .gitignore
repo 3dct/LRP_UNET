@@ -1,0 +1,11 @@
+# Ignore image files of various types
+*.jpg
+*.png
+
+# Also ignore .pth model files
+*.pth
+*.pt
+.continue/mcpServers/new-mcp-server.yaml
+__pycache__/models.cpython-311.pyc
+launch.json
+settings.json
