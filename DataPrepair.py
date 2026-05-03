@@ -4,7 +4,7 @@ import numpy as np
 
 import SimpleITK as sitk
 
-inputImageFileName ="E:\FibreBundle\IP532_Sample4-2umVS-16bit_1670x400x1670-Orig.mhd"
+inputImageFileName =".\FibreBundle\IP532_Sample4-2umVS-16bit_1670x400x1670-Orig.mhd"
 outdir = ".\out2\\"
 
 image = sitk.ReadImage(inputImageFileName)

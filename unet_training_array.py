@@ -229,8 +229,8 @@ def trainModel(tempdir_train,tempdir_label, Network_name,norm, out_dir):
 if __name__ == "__main__":
     
 
-    tempdir_train = r"C:\Users\P41877\Downloads\Montgomery\MontgomerySet\CXR_png\\"
-    tempdir_label = r"C:\Users\P41877\Downloads\Montgomery\MontgomerySet\ManualMask\rightMask\\" 
+    tempdir_train = r".\Montgomery\MontgomerySet\CXR_png\\"
+    tempdir_label = r".\Montgomery\MontgomerySet\ManualMask\rightMask\\" 
 
     trainModel(tempdir_train,tempdir_label, "BasicUnet","instance",out_dir="cxr")
     trainModel(tempdir_train,tempdir_label, "ResiduelUnet","instance",out_dir="cxr")
@@ -240,8 +240,8 @@ if __name__ == "__main__":
     trainModel(tempdir_train,tempdir_label, "UnetPlusPlus","batch",out_dir="cxr")
 
 
-    # tempdir_train = r"C:\Repos\LRP\out\img"
-    # tempdir_label = r"C:\Repos\LRP\out\seg" 
+    # tempdir_train = r".\out\img"
+    # tempdir_label = r".\out\seg" 
 
     # # trainModel(tempdir_train,tempdir_label,  "BasicUnet","instance",out_dir="ndt")
     # trainModel(tempdir_train,tempdir_label,  "ResiduelUnet","instance",out_dir="ndt")
